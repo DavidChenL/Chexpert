@@ -1,3 +1,7 @@
+# Step 1: create conda env with requirement.txt
+# Step 2: link work dir in this bash script
+# Step 3: change dataset path in example.json
+
 new_dir=$(date +%Y%m%d_%H%M%S)
 # $new_dir=$(date +%Y%m%d)
 new_dir="/space/liangyu/workspace/jhu/code/logdir_Chexpert/${new_dir}" # change to your path
